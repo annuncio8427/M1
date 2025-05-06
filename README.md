@@ -10,9 +10,25 @@ Write a C program to read 3 characters one by one and print the characters in a 
 4.	End the program.
 
 ## PROGRAM:
+#include <stdio.h>
 
+int main() {
+    char a, b, c;
+    scanf(" %c", &a);
+    scanf(" %c", &b);
+    scanf(" %c", &c);
+    printf("%c%c%c", c, b, a);
+    return 0;
+}
 ## OUTPUT:
-
+Input: 
+A
+B
+C
+Output:
+CBA
+RESULT:
+Thus the program to read 3 characters one by one and print the characters in a reverse order has been executed successfully.
 
 
 

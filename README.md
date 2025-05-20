@@ -64,6 +64,7 @@ int main() {
             printf("Positive number");
 	    
     } else {
+        
     
         printf("Not a positive number");
 	
